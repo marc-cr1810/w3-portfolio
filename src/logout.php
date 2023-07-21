@@ -37,8 +37,8 @@ body, html {
 </head>
 <body class='w3-grey'>
 
-<?php include "./includes/html/navbar.html"; ?>
-<?php include "./includes/html/sidebar.html"; ?>
+<?php include "./includes/html/navbar.php"; ?>
+<?php include "./includes/html/sidebar.php"; ?>
 
 <div class="w3-container w3-grey" style="padding:128px 64px">
     <div class="w3-card w3-white w3-padding-large w3-margin-small">

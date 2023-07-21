@@ -28,8 +28,8 @@ class Login
                     $db->query("INSERT INTO LoginTokens VALUES ('$sha1_token', $user_id);");
                     $db->query("DELETE FROM LoginTokens WHERE Token='$sha1_snid';");
 
-                    setcookie("SNID", $token, time() + 60 * 60 * 24 * 7, '/', NULL, NULL, TRUE);
-                    setcookie("SNID_", '1', time() + 60 * 60 * 24 * 3, '/', NULL, NULL, TRUE);
+                    setcookie("SNID", $token, time() + 60 * 60 * 24 * 7, '/', "", TRUE, TRUE);
+                    setcookie("SNID_", '1', time() + 60 * 60 * 24 * 3, '/', "", FALSE, TRUE);
 
                     return $user_id;
                 }

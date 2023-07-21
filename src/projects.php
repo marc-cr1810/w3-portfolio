@@ -81,8 +81,8 @@ body, html {
 </head>
 <body class='w3-white'>
 
-<?php include "./includes/html/navbar.html"; ?>
-<?php include "./includes/html/sidebar.html"; ?>
+<?php include "./includes/html/navbar.php"; ?>
+<?php include "./includes/html/sidebar.php"; ?>
 
 <div class="w3-center" style="margin-top: 60px">
   <div style="padding:16px 16px" id="home">

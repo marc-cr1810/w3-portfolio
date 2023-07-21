@@ -76,8 +76,8 @@ body, html {
 </head>
 <body>
 
-<?php include "./includes/html/navbar.html"; ?>
-<?php include "./includes/html/sidebar.html"; ?>
+<?php include "./includes/html/navbar.php"; ?>
+<?php include "./includes/html/sidebar.php"; ?>
 
 <!-- Header with full-height image -->
 <header class="bgimg-1 w3-display-container w3-grayscale-min" id="home">
@@ -90,7 +90,7 @@ body, html {
       <a href="#about"><button class="w3-button w3-white w3-padding-small w3-large w3-round w3-margin-top w3-opacity w3-hover-opacity-off">About me</button></a>
     </div>
   </div> 
-  <div class="w3-display-bottomleft w3-text-grey w3-large" style="padding:24px 48px">
+  <div class="w3-display-bottomleft w3-text-grey w3-xxlarge" style="padding:24px 48px">
     <!--<i class="fa fa-facebook-official w3-hover-opacity"></i>
     <i class="fa fa-instagram w3-hover-opacity"></i>
     <i class="fa fa-snapchat w3-hover-opacity"></i>
